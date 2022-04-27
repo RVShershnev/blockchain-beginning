@@ -1,0 +1,30 @@
+{
+    "index": 59,
+    "pre_hash": "00073b0eeb25ebb374810d45db802c0699ea51629793d867182b207a3fb6c3fefeb659af06dbe365dec6f0ba18ae7580f14928f05ca8c3c6a96ab3681b146ed1",
+    "timestamp": 1618853361,
+    "transactions": [
+        {
+            "from": "Alice",
+            "to": "Ivan",
+            "value": 244.58
+        },
+        {
+            "from": "Uwe",
+            "to": "Willow",
+            "value": 19.146
+        },
+        {
+            "from": "Ivan",
+            "to": "Sam",
+            "value": 465.781
+        },
+        {
+            "from": "SYSTEM",
+            "to": "Nick",
+            "value": 5.07
+        }
+    ],
+    "secret_info": "",
+    "nonce": 132,
+    "hash": "0001b574424a40377b06caf64e11506f5627690c524c6ad1a0e4228c4804123eb1752a4de3846843ee4e526a70a1a6b5d5fdffea9d28e9c0574822e480e1401e"
+}

@@ -2,11 +2,11 @@
 using Run;
 using System.Text.Json;
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Начало!");
 
 List<Block> blocks = new List<Block>();
 
-string path = @"C:\Users\rvs\Desktop\Modul_2\Task3 - Blocks";
+string path = @"Blocks";
 
 var files = Directory.GetFiles(path);
 foreach (var file in files)
@@ -28,6 +28,6 @@ var exercise4 = blocks.DistinctBy(x=>x.hash).ToArray();
 
 var exercise5 = blocks.DistinctBy(x => x.pre_hash).ToArray();
 
-Console.WriteLine("Конец");
+Console.WriteLine("Конец!");
 
 

@@ -1,0 +1,35 @@
+{
+    "index": 6,
+    "pre_hash": "000c3509f6fba69279b65109a3060a4fc52ad817c93846b7cd57e134b2e16b35b2928bcf4d14246da5742f96ec1ac48220064b9617303a49b73869d88db2007d",
+    "timestamp": 1618853365,
+    "transactions": [
+        {
+            "from": "Gloria",
+            "to": "Uwe",
+            "value": 163.745
+        },
+        {
+            "from": "Tina",
+            "to": "Mary",
+            "value": 19.129
+        },
+        {
+            "from": "Eve",
+            "to": "Ivan",
+            "value": 302.958
+        },
+        {
+            "from": "Robert",
+            "to": "Din",
+            "value": 92.987
+        },
+        {
+            "from": "SYSTEM",
+            "to": "Robert",
+            "value": 100.0
+        }
+    ],
+    "secret_info": "",
+    "nonce": 797,
+    "hash": "000bfabe35834b9a7d2ee52998b0eab3cc34b6ef24151a16e8be476050a225388632db83f97d16f669ab6609108567ceb4625ff419d45690b7e15399ae5726d7"
+}

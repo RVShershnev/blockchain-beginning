@@ -10,26 +10,29 @@
   "packageFolders": {
     "C:\\Users\\rvs\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\19.2.0.44\\ToolboxNuGetPackages": {}
+    "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\19.2.0.44\\ToolboxNuGetPackages": {},
+    "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repo\\Education\\Blockchain\\Blockchain.Beginning\\Run\\Run.csproj",
+      "projectUniqueName": "D:\\Repo\\Education\\blockchain-beginning-course\\src\\Blockchain.Beginning\\Run\\Run.csproj",
       "projectName": "Run",
-      "projectPath": "D:\\Repo\\Education\\Blockchain\\Blockchain.Beginning\\Run\\Run.csproj",
+      "projectPath": "D:\\Repo\\Education\\blockchain-beginning-course\\src\\Blockchain.Beginning\\Run\\Run.csproj",
       "packagesPath": "C:\\Users\\rvs\\.nuget\\packages\\",
-      "outputPath": "D:\\Repo\\Education\\Blockchain\\Blockchain.Beginning\\Run\\obj\\",
+      "outputPath": "D:\\Repo\\Education\\blockchain-beginning-course\\src\\Blockchain.Beginning\\Run\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\19.2.0.44\\ToolboxNuGetPackages"
+        "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\19.2.0.44\\ToolboxNuGetPackages",
+        "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\rvs\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WinForms.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -38,7 +41,10 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WinUI\\19.2.0.44\\NuGetPackages": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "D:\\Repo\\Decerns\\Packages": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://f.feedz.io/akkadotnet/akka/nuget/index.json": {},
+        "https://nuget.telerik.com/nuget": {}
       },
       "frameworks": {
         "net6.0": {
@@ -65,12 +71,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.0, 6.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.2.22153.17\\RuntimeIdentifierGraph.json"
       }
     }
   }

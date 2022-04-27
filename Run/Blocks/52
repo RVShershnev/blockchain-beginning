@@ -1,0 +1,25 @@
+{
+    "index": 52,
+    "pre_hash": "0007d9fc5b04f13ca2d800733735a02fcf76f4743ed162dd08ef3f75ea503da48004be27cd2a37ba516b929fbfb02cbc7e7d7ad4f226f88c7ba550410afd8432",
+    "timestamp": 1618853361,
+    "transactions": [
+        {
+            "from": "Jon",
+            "to": "Alice",
+            "value": 205.473
+        },
+        {
+            "from": "Xaver",
+            "to": "Quinn",
+            "value": 475.238
+        },
+        {
+            "from": "SYSTEM",
+            "to": "Eve",
+            "value": 5.07
+        }
+    ],
+    "secret_info": "",
+    "nonce": 1600,
+    "hash": "0004783fc588fffc912a8bfaf8aecb73f7c4b00cddeb89d55cea2c60fe0ac629bfd26bfdd9a65944090dd3035bdfb399e885ada4f688274f7a86238d657c0c03"
+}
